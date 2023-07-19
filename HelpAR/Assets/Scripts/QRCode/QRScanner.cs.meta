@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 25d14fe9429e50d429aff73a2bec953d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - scanClip: {fileID: 8300000, guid: 1ce4306e8118aa74f9dd879f99754c84, type: 3}
+  - scannedClip: {fileID: 8300000, guid: 4f69fbd6344a60c4cbae4d5d18dc8207, type: 3}
+  - _title: {instanceID: 0}
+  - _desc: {instanceID: 0}
+  - detectedQRPrefab: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

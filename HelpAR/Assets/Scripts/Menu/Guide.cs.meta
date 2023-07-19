@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 334d462cdd5d82f4bb2da1f50eb86f36
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - introMenuClip: {fileID: 8300000, guid: b0e5d5674b4e0f042aa2f0a675b76446, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
