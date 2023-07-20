@@ -14,7 +14,7 @@ public class Button : MonoBehaviour
 
     [SerializeField] AudioClip onPressSound;
     [SerializeField] AudioClip onReleaseSound;
-    private AudioSource audioSource;
+    [SerializeField] private AudioSource audioSource;
 
     private float pressAmount = 0f;
     private float targetPressAmount = 0f;
@@ -28,6 +28,13 @@ public class Button : MonoBehaviour
     [SerializeField] protected float height = 0.1f;
     [Range(0.01f, 0.3f)]
     [SerializeField] protected float depth = 0.02f;
+
+    void Awake()
+    {
+        pressAmount = 0f;
+        targetPressAmount = 0f;
+        updateButtonParts();
+    }
 
     // Start is called before the first frame update
     protected void start()
@@ -68,6 +75,7 @@ public class Button : MonoBehaviour
     private void updateButtonParts()
     {
         float semid = depth / 2f;
+        if (back == null) retreiveObjects();
         back.localPosition = new Vector3(0, 0, 0);
         borders.localPosition = new Vector3(0, 0, -semid + pressAmount * depth / 2f);
         content.localPosition = new Vector3(0, 0, -semid + pressAmount * depth / 2f);
@@ -156,6 +164,7 @@ public class Button : MonoBehaviour
                 clicked = true;
             }
         }
+        updateButtonParts();
     }
 
     protected void onEndColliding()
@@ -171,6 +180,9 @@ public class Button : MonoBehaviour
             onRelease.Invoke();
             clicked = false;
         }
+        pressAmount = 0f;
+        targetPressAmount = 0f;
+        updateButtonParts();
     }
 
     void retreiveObjects()

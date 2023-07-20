@@ -473,6 +473,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onPressSound: {fileID: 8300000, guid: f8514fa39ca3c3240a91601a915d050d, type: 3}
   onReleaseSound: {fileID: 8300000, guid: e5bf5d20712036447a2eb7b090c982b9, type: 3}
+  audioSource: {fileID: 282914772617505445}
   onPress:
     m_PersistentCalls:
       m_Calls: []
@@ -482,7 +483,8 @@ MonoBehaviour:
   width: 0.06
   height: 0.02
   depth: 0.02
-  label: Button
+  label: 0
+  text: 
   fontSize: 16
 --- !u!65 &8333524159054607447
 BoxCollider:
