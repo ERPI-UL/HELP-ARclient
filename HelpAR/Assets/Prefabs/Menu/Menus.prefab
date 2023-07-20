@@ -2979,6 +2979,16 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 1553101747516244753, guid: 3d321000d3fdced448fe23cfc71e0f52,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.024599997
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553101747516244766, guid: 3d321000d3fdced448fe23cfc71e0f52,
+        type: 3}
+      propertyPath: m_text
+      value: Help AR
+      objectReference: {fileID: 0}
     - target: {fileID: 1553101747642094248, guid: 3d321000d3fdced448fe23cfc71e0f52,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -3054,10 +3064,20 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 1553101748926388003, guid: 3d321000d3fdced448fe23cfc71e0f52,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.02
+      objectReference: {fileID: 0}
     - target: {fileID: 1553101749010106148, guid: 3d321000d3fdced448fe23cfc71e0f52,
         type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553101749010106149, guid: 3d321000d3fdced448fe23cfc71e0f52,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0654
       objectReference: {fileID: 0}
     - target: {fileID: 1553101749085988916, guid: 3d321000d3fdced448fe23cfc71e0f52,
         type: 3}

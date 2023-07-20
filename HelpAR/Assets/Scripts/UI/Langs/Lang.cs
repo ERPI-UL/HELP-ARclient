@@ -69,7 +69,7 @@ public abstract class Lang
         get
         {
             if (_instance == null)
-                _instance = new LangEnglish();
+                _instance = new LangFrench();
             return _instance;
         }
         protected set

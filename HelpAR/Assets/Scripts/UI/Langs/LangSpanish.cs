@@ -9,9 +9,9 @@ public class LangSpanish : Lang
     public LangSpanish(): base()
     {
         code = "es";
-        translations.Add(LANG.HOME, "Casa");
+        translations.Add(LANG.HOME, "Inicio");
         translations.Add(LANG.QUIT, "Dejar");
-        translations.Add(LANG.BACK, "Espalda");
+        translations.Add(LANG.BACK, "Volver");
         translations.Add(LANG.DONE, "Hecho");
         translations.Add(LANG.CANCEL, "Cancelar");
         translations.Add(LANG.CONNECT, "Conectar");
