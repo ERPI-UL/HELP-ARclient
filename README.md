@@ -1,5 +1,5 @@
-<h2 align="center">HELP - Web</h2>
-<h3 align="center">Hybrid Extended Learning Platform - Web platform</h3>
+<h2 align="center">HELP - AR</h2>
+<h3 align="center">Hybrid Extended Learning Platform - AR client</h3>
 <p align="center">
     <a href=""><img src="https://img.shields.io/badge/c%23-%23239120.svg?logo=c-sharp&logoColor=white"/></a>
     <a href=""><img src="https://img.shields.io/badge/unity-%23000000.svg?logo=unity&logoColor=white"/></a>
