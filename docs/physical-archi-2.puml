@@ -1,0 +1,66 @@
+@startuml
+frame devices {
+    artifact AR #Yellow[
+        Hololens
+    ]
+    artifact VR [
+        Meta Quest 2
+    ]
+    artifact Smartphone
+    artifact Computer
+}
+
+frame "virtual machine" {
+    
+    frame frontend {
+        ' interface "localhost:81" as HTTP81
+        interface "localhost:80" as HTTP80
+        interface "localhost:80/doc" as HTTP80Doc
+        component webApp [
+            Web app
+            ]
+        component Doc [
+            Documentation
+            ]
+    }
+    
+    frame backend  {
+        interface "localhost:5000" as routesProd
+        ' interface "localhost:5001" as routesDev
+        interface "API Doc" as routesDoc
+        component API
+        folder augmentations
+        ' database "SQL Dev" as SQLdev
+        database "SQL Prod" as SQLprod
+        ' interface "5431:5432" as sqlPortDev
+        interface "5432:5432" as sqlPortProd
+    }
+}
+
+API -up-- routesProd :prod
+' API -up-- routesDev :dev
+Smartphone -- HTTP80
+Smartphone -- HTTP80Doc
+' Smartphone -- HTTP81
+Smartphone -- routesDoc
+Computer -- HTTP80
+' Computer -- HTTP81
+Computer -- HTTP80Doc
+Computer -- routesDoc
+' webApp -- API
+' webApp -up-- HTTP81 :dev
+webApp -up-- HTTP80 :prod
+webApp -- routesProd
+' webApp -- routesDev
+Doc -up-- HTTP80Doc
+API -- augmentations
+' sqlPortDev -- SQLdev
+sqlPortProd -- SQLprod
+' API -- sqlPortDev
+API -- sqlPortProd
+API -up-- routesDoc
+AR -- routesProd
+' AR -- routesDev
+VR -- routesProd
+' VR -- routesDev
+@enduml
