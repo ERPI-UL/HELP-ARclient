@@ -3,7 +3,10 @@
 <p align="center">
     <a href=""><img src="https://img.shields.io/badge/c%23-%23239120.svg?logo=c-sharp&logoColor=white"/></a>
     <a href=""><img src="https://img.shields.io/badge/unity-%23000000.svg?logo=unity&logoColor=white"/></a>
-    <a href=""><img src="https://img.shields.io/badge/Microsoft_Hololens-0078D4?logo=microsoft&logoColor=white"/></a>
+    <a href=""><img src="https://img.shields.io/badge/Meta_Quest_2-0078D4?logo=meta&logoColor=white"/></a>
+</p>
+<p align="center"> Join us on: 
+<a href="https://discord.gg/GeR6cFV9nq"><img src="https://img.shields.io/badge/Discord-%235865F2.svg?logo=discord&logoColor=white"/></a>
 </p>
 
 ## Description
