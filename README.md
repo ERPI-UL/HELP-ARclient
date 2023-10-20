@@ -19,3 +19,7 @@ This repository contains the source code for the web interface of the authoring 
 
 ## Ackowledgment
 The development of the tool that initiated this work was funded by the Grand Est region.
+
+## Compenent set-up
+
+Make sure to add this package to the Unity project package : https://github.com/AimXR/AimXRToolkit.git
