@@ -36,6 +36,7 @@ public class LangItalian : Lang
         translations.Add(LANG.ACTIVITY_DONE_DESC, "L'attività è ora finita, puoi tornare alla schermata principale");
         translations.Add(LANG.WORKPLACES, "Luoghi di lavoro");
         translations.Add(LANG.ANCHOR_SCANNING, "Scansione ancore");
+        translations.Add(LANG.ARTIFACT_MARKER_SCANNING, "Scan artifact marker");
         translations.Add(LANG.ANCHOR_SCANNING_DESC, "Scansiona le ancore richieste per continuare");
     }
 }

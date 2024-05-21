@@ -41,7 +41,8 @@ public enum LANG
     WORKPLACES,
 
     ANCHOR_SCANNING,
-    ANCHOR_SCANNING_DESC
+    ANCHOR_SCANNING_DESC,
+    ARTIFACT_MARKER_SCANNING
 }
 
 public abstract class Lang

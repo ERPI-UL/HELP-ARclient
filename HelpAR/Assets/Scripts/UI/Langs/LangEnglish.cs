@@ -35,7 +35,8 @@ public class LangEnglish : Lang
         translations.Add(LANG.ACTIVITY_DONE, "Activity finished");
         translations.Add(LANG.ACTIVITY_DONE_DESC, "The activity is now finished, you can go back to the home screen");
         translations.Add(LANG.WORKPLACES, "Workplaces");
-        translations.Add(LANG.ANCHOR_SCANNING, "Scan anchors");
-        translations.Add(LANG.ANCHOR_SCANNING_DESC, "Scan the asked anchors to continue");
+        translations.Add(LANG.ANCHOR_SCANNING, "Scan markers");
+        translations.Add(LANG.ARTIFACT_MARKER_SCANNING, "Scan artifact marker");
+        translations.Add(LANG.ANCHOR_SCANNING_DESC, "Scan the asked markers to continue");
     }
 }

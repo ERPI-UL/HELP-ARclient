@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.aimxr.toolkit": {
-      "version": "file:C:/Users/furwa/Documents/LF2L/AimXRToolkit",
+      "version": "file:d:/Users/gabriel2/Documents/Projets/Misc/AimXRToolkit",
       "depth": 0,
       "source": "local",
       "dependencies": {

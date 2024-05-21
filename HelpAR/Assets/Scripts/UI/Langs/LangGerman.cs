@@ -36,6 +36,7 @@ public class LangGerman : Lang
         translations.Add(LANG.ACTIVITY_DONE_DESC, "Die Aktivität ist beendet, du kannst zum Startbildschirm zurückkehren");
         translations.Add(LANG.WORKPLACES, "Arbeitsumgebungen");
         translations.Add(LANG.ANCHOR_SCANNING, "Anker-Scan");
+        translations.Add(LANG.ARTIFACT_MARKER_SCANNING, "Scan artifact marker");
         translations.Add(LANG.ANCHOR_SCANNING_DESC, "Bitte den angeforderten Anker scannen");
     }
 }

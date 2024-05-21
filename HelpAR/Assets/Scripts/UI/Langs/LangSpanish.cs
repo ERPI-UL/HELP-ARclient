@@ -36,6 +36,7 @@ public class LangSpanish : Lang
         translations.Add(LANG.ACTIVITY_DONE_DESC, "La actividad ha terminado, puede volver a la pantalla de inicio");
         translations.Add(LANG.WORKPLACES, "Lugares de trabajo");
         translations.Add(LANG.ANCHOR_SCANNING, "Escanear anclas");
+        translations.Add(LANG.ARTIFACT_MARKER_SCANNING, "Scan artifact marker");
         translations.Add(LANG.ANCHOR_SCANNING_DESC, "Escanee las anclas solicitadas para continuar");
     }
 }

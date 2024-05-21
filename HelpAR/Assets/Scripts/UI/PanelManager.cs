@@ -5,12 +5,16 @@ using UnityEngine;
 
 public class PanelManager : MonoBehaviour
 {
+    [SerializeField] private TMPro.TextMeshPro version;
     [SerializeField] protected Panel[] panels;
     protected bool[] panelsStates;
 
     void Start()
     {
         initStates();
+        if(version != null){
+            version.text = Application.version;
+        }
     }
 
     public void showPanel(int index)

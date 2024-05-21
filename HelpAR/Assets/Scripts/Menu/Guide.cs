@@ -48,31 +48,31 @@ public class Guide : MonoBehaviour
         var user = AimXRManager.Instance.GetUser();
         var mode = AimXRManager.Instance.mode;
         guides.Add("fr", new string[] {
-            "Bienvenue " + user.firstname + " " + user.lastname + ". " +
+            "Bienvenue " + user.firstname + " " + user.lastname + ". ",
             (mode == AimXRManager.MODE.MIXED_REALITY? "Scannez l'ancre de" : "sélectionnez") + " vôtre environnement de travail avant de sélectionner une activité.",
             "Bien. Sélectionnez maintenant l'activité que vous souhaitez réaliser.",
             "Tout est prêt. Cliquez sur le bouton commencer pour lancer l'activité !"
         });
         guides.Add("en", new string[] {
-            "Welcome " + user.firstname + " " + user.lastname + ". " +
+            "Welcome " + user.firstname + " " + user.lastname + ". ",
             (mode == AimXRManager.MODE.MIXED_REALITY? "Scan the anchor of" : "select") + " your working environment before selecting an activity.",
             "Good. Now select the activity you want to do.",
             "Everything is ready. Click on the start button to launch the activity !"
         });
         guides.Add("de", new string[] {
-            "Willkommen " + user.firstname + " " + user.lastname + ". " +
+            "Willkommen " + user.firstname + " " + user.lastname + ". ",
             (mode == AimXRManager.MODE.MIXED_REALITY? "Scanne das Anker von" : "wähle") + " deine Arbeitsumgebung, bevor du eine Aktivität auswählst.",
             "Gut. Wählen Sie jetzt die Aktivität aus, die Sie ausführen möchten.",
             "Alles ist bereit. Klicken Sie auf die Schaltfläche Start, um die Aktivität zu starten !"
         });
         guides.Add("es", new string[] {
-            "Bienvenido " + user.firstname + " " + user.lastname + ". " +
+            "Bienvenido " + user.firstname + " " + user.lastname + ". ",
             (mode == AimXRManager.MODE.MIXED_REALITY? "Escanea el ancla de" : "selecciona") + " tu entorno de trabajo antes de seleccionar una actividad.",
             "Bien. Ahora selecciona la actividad que quieres hacer.",
             "Todo está listo. ¡Haz clic en el botón de inicio para iniciar la actividad!"
         });
         guides.Add("it", new string[] {
-            "Benvenuto " + user.firstname + " " + user.lastname + ". " +
+            "Benvenuto " + user.firstname + " " + user.lastname + ". ",
             (mode == AimXRManager.MODE.MIXED_REALITY? "Scansiona l'ancora di" : "seleziona") + " il tuo ambiente di lavoro prima di selezionare un'attività.",
             "Bene. Ora seleziona l'attività che vuoi fare.",
             "Tutto è pronto. Fai clic sul pulsante di avvio per avviare l'attività!"

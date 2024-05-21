@@ -7,8 +7,8 @@ using UnityEngine;
 public class DebugPanel : MonoBehaviour
 {
     [SerializeField] TMPro.TextMeshPro text;
-    [SerializeField] private GameObject menu;
-    [SerializeField] private Vector3 shift;
+    // [SerializeField] private GameObject menu;
+    // [SerializeField] private Vector3 shift;
     public static DebugPanel Instance { get; private set; }
 
     private void Awake()
@@ -44,17 +44,17 @@ public class DebugPanel : MonoBehaviour
 // Start is called before the first frame update
 void Start()
     {
-        transform.localPosition = shift;
+        // transform.localPosition = shift;
     }
 
     // Update is called once per frame
     void Update()
     {
-        Camera cam = Camera.main;
-        if (cam == null) return;
-        transform.position = (cam.transform.TransformPoint(shift) - cam.transform.position).normalized;
-        transform.position = new Vector3(transform.position.x, cam.transform.position.y - 0.4f, transform.position.z);
-        transform.LookAt(cam.transform);
+        // Camera cam = Camera.main;
+        // if (cam == null) return;
+        // transform.position = (cam.transform.TransformPoint(shift) - cam.transform.position).normalized;
+        // transform.position = new Vector3(transform.position.x, cam.transform.position.y - 0.4f, transform.position.z);
+        // transform.LookAt(cam.transform);
     }
 
     public void onMessage(string msg)

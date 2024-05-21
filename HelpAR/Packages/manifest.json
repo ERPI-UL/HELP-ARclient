@@ -12,7 +12,7 @@
     }
   ],
   "dependencies": {
-    "com.aimxr.toolkit": "file:C:/Users/furwa/Documents/LF2L/AimXRToolkit",
+    "com.aimxr.toolkit": "file:d:/Users/gabriel2/Documents/Projets/Misc/AimXRToolkit",
     "com.atteneder.gltfast": "5.0.4",
     "com.atteneder.ktx": "2.2.3",
     "com.microsoft.mixedreality.openxr": "file:MixedReality/com.microsoft.mixedreality.openxr-1.8.0.tgz",

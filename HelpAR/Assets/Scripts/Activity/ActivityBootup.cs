@@ -37,7 +37,7 @@ public class ActivityBootup : MonoBehaviour
         loading.setLoading(true);
         await loadWorkplace();
         await loadActivity();
-        loading.setTitle("Chargement terminé");
+        loading.setTitle("Chargement terminÃ©");
         loading.setLabel("");
         loading.setLoading(false);
         await Task.Delay(2000);
@@ -70,12 +70,12 @@ public class ActivityBootup : MonoBehaviour
         qr.transform.position = anchor_pose.position;
         qr.transform.rotation = anchor_pose.rotation;
 
-        loading.setLabel("Artéfact");
+        loading.setLabel("Artefact");
         int index = 1;
         List<ArtifactInstance> artifacts = workplace.GetArtifacts();
         artifacts.ForEach(async instance =>
         {
-            loading.setLabel("Artéfact " + index + "/" + artifacts.Count);
+            loading.setLabel("Artefact " + index + "/" + artifacts.Count);
 
             // fetch and add model to the qr code
             GameObject obj_artifact = await workplaceManager.SpawnArtifact(instance);
@@ -106,7 +106,7 @@ public class ActivityBootup : MonoBehaviour
 
     private async Task loadActivity()
     {
-        loading.setLabel("Activité");
+        loading.setLabel("ActivitÃ©");
         Activity activity = await DataManager.GetInstance().GetActivityAsync(AimXRManager.Instance.GetActivityId());
         activityManager.SetActivity(activity);
 

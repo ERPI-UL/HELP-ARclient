@@ -12,11 +12,11 @@ public class LangFrench : Lang
         translations.Add(LANG.HOME, "Accueil");
         translations.Add(LANG.QUIT, "Quitter");
         translations.Add(LANG.BACK, "Retour");
-        translations.Add(LANG.DONE, "Terminé");
+        translations.Add(LANG.DONE, "TerminÃ©");
         translations.Add(LANG.CANCEL, "Annuler");
         translations.Add(LANG.CONNECT, "Se connecter");
-        translations.Add(LANG.CONNECTED, "Connecté");
-        translations.Add(LANG.DISCONNECT, "Déconnexion");
+        translations.Add(LANG.CONNECTED, "ConnectÃ©");
+        translations.Add(LANG.DISCONNECT, "DÃ©connexion");
         translations.Add(LANG.YOUR_EASYCONNECT_CODE, "Votre code EasyConnect");
         translations.Add(LANG.YOUR_EASYCONNECT_CODE_DESC, "Allez sur indico.lf2l.fr pour vous connecter");
         translations.Add(LANG.OPTIONS, "Options");
@@ -28,14 +28,15 @@ public class LangFrench : Lang
         translations.Add(LANG.LOADING, "Chargement");
         translations.Add(LANG.LOADING_RESSOURCES, "Chargement des ressources");
         translations.Add(LANG.CONFIRMATION, "Confirmation");
-        translations.Add(LANG.START_ACTIVITY, "Commencer l'activité ?");
-        translations.Add(LANG.START_ACTIVITY_DESC, "Voulez-vous commencer l'activité ?");
+        translations.Add(LANG.START_ACTIVITY, "Commencer l'activitÃ© ?");
+        translations.Add(LANG.START_ACTIVITY_DESC, "Voulez-vous commencer l'activitÃ© ?");
         translations.Add(LANG.START, "Commencer");
-        translations.Add(LANG.ACTIVITIES, "Activités");
-        translations.Add(LANG.ACTIVITY_DONE, "Activité terminée");
-        translations.Add(LANG.ACTIVITY_DONE_DESC, "L'activité est terminée, vous pouvez retourner à l'accueil");
+        translations.Add(LANG.ACTIVITIES, "ActivitÃ©s");
+        translations.Add(LANG.ACTIVITY_DONE, "ActivitÃ© terminÃ©e");
+        translations.Add(LANG.ACTIVITY_DONE_DESC, "L'activitÃ© est terminÃ©e, vous pouvez retourner Ã  l'accueil");
         translations.Add(LANG.WORKPLACES, "Environnements");
-        translations.Add(LANG.ANCHOR_SCANNING, "Scan des anches");
-        translations.Add(LANG.ANCHOR_SCANNING_DESC, "Veuillez scanner l'ancre demandée");
+        translations.Add(LANG.ANCHOR_SCANNING, "Scan des marqueurs");
+        translations.Add(LANG.ARTIFACT_MARKER_SCANNING, "Scan des marqueurs d'artefact");
+        translations.Add(LANG.ANCHOR_SCANNING_DESC, "Veuillez scanner le marqueur demandÃ©");
     }
 }
